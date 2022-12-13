@@ -1,5 +1,5 @@
 [package]
-name = "test_module"
+name = "default_resolver"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,6 +8,3 @@ edition = "2021"
 [dependencies]
 semver = "1.0.14"
 interface = { path = "../interface" }
-
-[lib]
-crate_type = ["cdylib"]

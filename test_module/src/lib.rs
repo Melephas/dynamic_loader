@@ -1,4 +1,5 @@
 use interface::Module;
+use semver::{Version};
 
 pub struct TestModule;
 
@@ -11,6 +12,10 @@ impl TestModule {
 impl Module for TestModule {
     fn name(&self) -> String {
         String::from("Test Module")
+    }
+
+    fn version(&self) -> Version {
+        Version::new(0, 1, 0)
     }
 }
 

@@ -7,4 +7,5 @@ edition = "2021"
 
 [dependencies]
 interface = { path = "../interface" }
+default_resolver = { path = "../default_resolver" }
 dlopen2 = "0.4.1"
